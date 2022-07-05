@@ -98,7 +98,7 @@ h2{
     height: 50%;
 }
 .my-recipies-first-image{
-    width: 40%;
+    width: 50%;
     height: auto;
     margin: 0 15px 0 10%;
     padding: 10px;
@@ -108,11 +108,38 @@ h2{
     /* border: 5px solid black; */
 }
 .my-recipies-second-image{
-    width: 40%;
+    width: 50%;
     height: auto;
     margin: 0 10% 0 15px;
     padding: 10px;
     box-shadow: 2px -2px 20px gray;
     border-radius: 30px;
     text-align: justify;
+}
+/* count section start */
+.count{
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+    background-color: rgb(239, 238, 235);
+    border-radius: 15px;
+    padding: 20px 50px;
+}
+.count-head{
+    font-size: 30px;
+    color: #716e6e;
+
+}
+.count-sub-text{
+    color:gray;
+    opacity: o.9;
+    margin: 0;
+    font-size: 15px;
+}
+.count-content-size{
+    margin: 0;
+    margin: auto;
+    padding: 50px;
+
+    
 }
