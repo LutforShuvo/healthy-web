@@ -4,7 +4,7 @@ body{
 }
 
 /* header section */
-.header{
+.header {
     display: flex;
 }
 h1{
@@ -12,7 +12,7 @@ h1{
     margin: 0;
 }
 .header-div{
-    margin: 10% 2% 5% 5%;
+    margin: 10% 2% 0 5%;
 }
 .header-text{
     width: 50%;
@@ -50,4 +50,36 @@ span{
     font-size: 20px;
     border-radius: 30px;
     color: white;
+}
+
+/* About me section start */
+.about-me{
+    /* margin: 0 %; */
+    background-image: url(images/shapes/7.png);
+    background-position: center;
+    background-size:auto;
+    background-repeat: no-repeat;
+
+}
+h2{
+    font-size: 40px;
+    color: #716e6e;
+}
+.about-me-text{
+    padding: 150px;
+    margin: auto;
+    text-align: justify;
+}
+.about-me-text p{
+    line-height: 25px;
+}
+.about-me-img{
+    margin: auto;
+    padding-left: 100px;
+}
+.about-me-img img{
+    width: 400px;
+    height: auto;
+    padding-left: 50px;
+
 }
