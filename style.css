@@ -24,7 +24,7 @@ h1{
 span{
     color: #fec017;
 }
-#sub-text{
+.sub-text{
     color:gray;
     opacity: o.9;
     margin-top: 50px;
@@ -82,4 +82,37 @@ h2{
     height: auto;
     padding-left: 50px;
 
+}
+/* My Recipie section start */
+.my-recipies-header{
+    margin: auto;
+    text-align: center;
+    padding: 0 25%;
+}
+.my-recipies-img{
+    display:flex;
+
+}
+.my-recipies-img img{
+    width: 100%;
+    height: 50%;
+}
+.my-recipies-first-image{
+    width: 40%;
+    height: auto;
+    margin: 0 15px 0 10%;
+    padding: 10px;
+    box-shadow: 2px -2px 20px gray;
+    border-radius: 30px;
+    text-align: justify;
+    /* border: 5px solid black; */
+}
+.my-recipies-second-image{
+    width: 40%;
+    height: auto;
+    margin: 0 10% 0 15px;
+    padding: 10px;
+    box-shadow: 2px -2px 20px gray;
+    border-radius: 30px;
+    text-align: justify;
 }
