@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* header section */
+.header{
+    display: flex;
+}
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+.header-div{
+    margin: 10% 2% 5% 5%;
+}
+.header-text{
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 120px;
+    font-weight: bold;
+    color: #716e6e;
+}
+span{
+    color: #fec017;
+}
+#sub-text{
+    color:gray;
+    opacity: o.9;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.header-image{
+    width: 40%;
+    padding-right: 30px;
+}
+.header-image img{
+    width:200%;
+    position:relative; 
+    right: 240px;
+    top: -100px;
+
+}
+.link-button{
+    display: inline-block;
+    margin-top: 65px;
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color:rgb(226, 170, 66) ;
+    font-size: 20px;
+    border-radius: 30px;
+    color: white;
+}
